@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -8,7 +11,7 @@ body{
 }
 
 #body{
-    background-color:mediumaquamarine;
+    background-color:azure;
     height:1080px;
     width: auto;
     position: relative;
@@ -42,7 +45,7 @@ nav a{
     margin: 20px;
     text-decoration: none;
     color: darkslateblue;
-    font-family: cursive;
+    font-family:"Boogaloo", cursive;
     font-size: 18px;
     align-items: center;
     justify-items: center;
@@ -101,8 +104,9 @@ h3{
     transform: translate(-50%,50%);
     justify-content: center;
     text-align: center;
-    color:azure;
-    font-weight: bolder;
+    font-family: 'Boogaloo', cursive;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
 
@@ -178,6 +182,23 @@ a:hover
         display: block;
     
     }
+
+    #intro
+    {
+       font-size: 15px;
+       position: relative;
+       top: 10%;
+       left: 40%;
+       transform: translate(-50%,50%);
+       justify-content: center;
+       text-align: center;
+       font-weight: bolder;
+    }
+
+h3{
+    font-size: 30px;
+}
+
     
 }
 
