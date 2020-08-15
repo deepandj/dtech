@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+#body{
+    background-color:mediumaquamarine;
+    height:1080px;
+    width: auto;
+    position: relative;
+    top: 0%;
+    margin-top: 0em;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+    
+}
+
+header
+{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    background-image: linear-gradient(45deg,azure,lightcoral,azure);
+    height: 10vh;
+    margin-top: 2px;
+
+}
+
+nav
+{
+    display: flex;
+    
+    /*margin-left: 68%;*/
+}
+
+nav a{
+    margin: 20px;
+    text-decoration: none;
+    color: darkslateblue;
+    font-family: cursive;
+    font-size: 18px;
+    align-items: center;
+    justify-items: center;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    
+}
+.burger{
+    display: none;
+    cursor: pointer;
+
+    
+}
+
+.burger div
+{
+    height: 3px;
+    width: 25px;
+    background-color: brown;
+    margin: 3px;
+
+}
+
+#main
+{
+    height: auto;
+    width: auto;
+}
+/*Dtech*/
+h1{
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+/*welcome*/
+h3{
+
+    
+    font-family: 'Pacifico',cursive;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    font-size: 40px;
+    
+}
+#intro
+{
+    font-size: 20px;
+    position: relative;
+    top: 10%;
+    left: 40%;
+    transform: translate(-50%,50%);
+    justify-content: center;
+    text-align: center;
+    color:azure;
+    font-weight: bolder;
+}
+
+
+footer
+{
+    background-color: antiquewhite;
+    height:80px;
+    width: auto;
+    text-align: center;
+    position: relative;
+    top: 70%;    
+}
+#icon-tray i
+{
+    margin-top: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+a:hover
+{
+    color: yellow;
+    text-shadow: 2px 2px orangered;
+    transition: ease 0.5s;
+}
+
+
+@media screen and (max-width:768px)
+{
+
+    #body
+    {
+        margin-top: 0em;
+        margin-left: 0em;
+        margin-right: 0em;
+        overflow-x: hidden;
+        
+    }
+    h1{
+        margin-right: 50%;
+    }
+
+    header
+    {
+        background-image: linear-gradient(45deg,azure,burlywood,bisque);
+    }
+
+    nav {
+        position: absolute;
+        right: 0px;
+        height:89.75vh ;
+        top: 10.25vh;
+        background-image:linear-gradient(45deg,azure,burlywood,bisque) ;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+        
+        
+        
+    }
+   
+    nav a{
+        opacity: 0;
+    }
+
+    .burger
+    {
+        display: block;
+    
+    }
+    
+}
+
+.nav-active{
+       transform: translateX(0%);
+}
+
+.mainsmove
+{
+    transform: translateX(-50%);
+    transition: ease-out 0.5s;
+}
+@keyframes navlinkslide{
+    from
+    {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
+
+@keyframes mainmove
+{
+    from
+    {
+        transform: translateX(50%);
+    }
+    to
+    {
+        transform: translateX(-50%);
+    }
+}
+
