@@ -160,6 +160,7 @@ a:hover
         right: 0px;
         height:89.75vh ;
         top: 10.25vh;
+        border-radius:140px 0px 0px 140px;
         background-image:linear-gradient(45deg,azure,burlywood,bisque) ;
         display: flex;
         flex-direction: column;
