@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
 
 *{
@@ -49,8 +50,6 @@ header
 nav
 {
     display: flex;
-    
-    /*margin-left: 68%;*/
 }
 
 nav a{
@@ -92,6 +91,8 @@ h1{
 
     letter-spacing: 2px;
     text-transform: uppercase;
+    font-family: 'Concert One', cursive;
+    font-size: 40px;
     
 }
 /*welcome*/
@@ -296,7 +297,7 @@ nav a:hover
     #dev-intro
     {
         font-size:1.2em;
-        margin-left:-40%;    
+        margin-left:-45%;    
         font-family: 'Boogaloo', cursive;
         font-weight: 500;
         letter-spacing: 2px;
@@ -308,7 +309,7 @@ nav a:hover
         height: 60%;
         width: 80%;
         margin-left: 20%;
-        margin-top: -10%;
+        margin-top: -20%;
 
     }
     
