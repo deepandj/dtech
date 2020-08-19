@@ -11,8 +11,8 @@ body{
 }
 
 #body{
-    background-color:azure;
-    height:1080px;
+    background-color:white;
+    height:100vh;
     width: auto;
     position: relative;
     top: 0%;
@@ -31,6 +31,18 @@ header
     background-image: linear-gradient(45deg,azure,lightcoral,azure);
     height: 10vh;
     margin-top: 2px;
+
+}
+
+.static-head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:95.9%;
+    margin-top: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+    
 
 }
 
@@ -71,9 +83,10 @@ nav a{
 
 #main
 {
-    height: auto;
+    height:100%;
     width: auto;
 }
+
 /*Dtech*/
 h1{
 
@@ -92,21 +105,33 @@ h3{
     top: 0%;
     left: 45%;
     transform: translate(-50%,50%);
-    font-size: 40px;
-    
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#world
+{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+}
+
+.image
+{
+    height: 40%;
+    width: 50%;
 }
 #intro
 {
-    font-size: 20px;
-    position: relative;
-    top: 10%;
-    left: 40%;
-    transform: translate(-50%,50%);
-    justify-content: center;
-    text-align: center;
+    font-size:1.5em;
+    margin-top: 10%;    
     font-family: 'Boogaloo', cursive;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 2px;
+    color:#79959B;
+    
 }
 
 
@@ -117,21 +142,36 @@ footer
     width: auto;
     text-align: center;
     position: relative;
-    top: 70%;    
+    top: 100%;    
 }
 #icon-tray i
 {
     margin-top: 10px;
     margin: 10px;
     padding: 10px;
+    text-decoration-style: none;
+    
+    
+}
+
+#icon-tray a{
+    text-decoration-style: none;
+}
+
+i:hover
+{
+    font-size: 20px;
+    color: black;
+
 }
 
 
-a:hover
+nav a:hover
 {
     color: yellow;
     text-shadow: 2px 2px orangered;
-    transition: ease 0.5s;
+    transition: ease 0.3s;
+    font-size: 20px;
 }
 
 
@@ -150,10 +190,24 @@ a:hover
         margin-right: 50%;
     }
 
+    h3{
+        margin-left: 5%;
+    }
+
     header
     {
         background-image: linear-gradient(45deg,azure,burlywood,bisque);
     }
+    .static-head{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width:100%;
+        margin-top: 0;
+        margin-left: 0;
+        
+    }
+
 
     nav {
         position: absolute;
@@ -183,22 +237,36 @@ a:hover
         display: block;
     
     }
+    #world
+    {
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       justify-items: center;
+       margin-top: 20%;
+     }
+     .image
+       {
+          height: 60%;
+          width: 80%;
+       }
+     
+
 
     #intro
     {
-       font-size: 15px;
-       position: relative;
-       top: 10%;
-       left: 40%;
-       transform: translate(-50%,50%);
-       justify-content: center;
-       text-align: center;
-       font-weight: bolder;
+        font-size:1.2em;
+        margin-left: -30%;    
+        font-family: 'Boogaloo', cursive;
+        font-weight: 500;
+        letter-spacing: 2px;
+        color:#79959B;
+        
     }
 
-h3{
-    font-size: 30px;
-}
+    h3{
+     font-size: 28px;
+    }
 
     
 }
@@ -231,6 +299,7 @@ h3{
     from
     {
         transform: translateX(50%);
+       
     }
     to
     {

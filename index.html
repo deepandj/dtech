@@ -36,22 +36,24 @@
         </header>
 
        <main id="main">
-            <h3>Welcome to my profile</h3>
-             
-             <pre id="intro">
-                 Hello!! This is Deepanraj.
-                     CEO of DTech.
-                  I'm a full stack developer.
-             
-               </pre>
+            <h3>Hellooo there!! Welcome to DTech</h3>  
+             <div id="world">
+                <img src="img/world.svg" alt="world" class="image">
+                <pre id="intro">
+                    Spread your company world wide
+                     through us
+                  </pre>
+   
+             </div>
+            
         
         </main>
 
         <footer>
             <div id="icon-tray">
-                <i class="fa fa-instagram" aria-hidden="true"></i>
-                <i class="fa fa-twitter" aria-hidden="true"></i>
-                <i class="fa fa-telegram" aria-hidden="true"></i>
+               <a href="https://instagram.com/my_blind_soul?igshid=cwxaihe57sc7"> <i class="fa fa-instagram" aria-hidden="true"></i></a></i>
+               <a href="https://twitter.com/DeepAn_Dj28?s=09"><i class="fa fa-twitter" aria-hidden="true"></i></a> 
+               <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a> 
          </div>
          <div id="copyright">DTech &copy;Copyright 2020</div>
         </footer>
@@ -60,5 +62,24 @@
     </div>
     
     <script src="js/app.js"></script>
+    <script src="jquery-3.5.1.js"></script>
+
+    <script type="text/javascript">
+         $(function()
+         {
+             $(window).scroll(function()
+             {
+                 if($(window).scrollTop()>0)
+                 {
+                     $("header").addClass("static-head");
+                 }
+                 else{
+                     $("header").removeClass("static-head");
+                 }
+
+             });
+
+         });
+    </script>
 </body>
 </html>
