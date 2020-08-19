@@ -134,6 +134,25 @@ h3{
     
 }
 
+#developer
+{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+}
+#dev-intro
+{
+    font-size:1.5em;
+    margin-top: 10%;    
+    font-family: 'Boogaloo', cursive;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color:#79959B;
+
+}
+
 
 footer
 {
@@ -237,6 +256,7 @@ nav a:hover
         display: block;
     
     }
+
     #world
     {
        display: flex;
@@ -263,11 +283,34 @@ nav a:hover
         color:#79959B;
         
     }
-
-    h3{
-     font-size: 28px;
+    
+    #developer
+    {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+        margin-top: 10%;
     }
+    
+    #dev-intro
+    {
+        font-size:1.2em;
+        margin-left:-40%;    
+        font-family: 'Boogaloo', cursive;
+        font-weight: 500;
+        letter-spacing: 2px;
+        color:#79959B;
+        
+    }
+    .dev-image
+    {
+        height: 60%;
+        width: 80%;
+        margin-left: 20%;
+        margin-top: -10%;
 
+    }
     
 }
 
