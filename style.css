@@ -103,10 +103,7 @@ h3{
     font-family: 'Pacifico',cursive;
     text-align: center;
     justify-content: center;
-    position: relative;
-    top: 0%;
-    left: 45%;
-    transform: translate(-50%,50%);
+    margin-top: 3%;
     font-size: 2em;
     font-weight: 500;
 }
@@ -114,16 +111,16 @@ h3{
 #world
 {
     display: flex;
+    justify-content: space-evenly;
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
     padding: 0;
+    
 }
 
 .image
 {
-    height: 40%;
-    width: 50%;
+    height: 30%;
+    width: 40%;
 }
 #intro
 {
@@ -139,9 +136,8 @@ h3{
 #developer
 {
     display: flex;
+    justify-content: space-evenly;
     margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
     padding: 0;
 }
 #dev-intro
@@ -159,11 +155,11 @@ h3{
 footer
 {
     background-color: antiquewhite;
-    height:80px;
+    height:10%;
     width:100%;
     text-align: center;
     position: relative;
-    top: 80vh;    
+    top: 80%;    
 }
 #icon-tray i
 {
@@ -201,17 +197,15 @@ nav a:hover
 
     #body
     {
-        margin-top: 0em;
-        margin-left: 0em;
-        margin-right: 0em;
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
         overflow-x: hidden;
         
     }
-    h1{
-        margin-right: 50%;
-    }
-
+   
     h3{
+        margin-top: 10%;
         margin-left: 5%;
     }
 
@@ -244,8 +238,7 @@ nav a:hover
         justify-content: space-around;
         width: 50%;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in;
-        
+        transition: transform 0.5s ease-in-out;
         
         
     }
@@ -264,8 +257,7 @@ nav a:hover
     {
        display: flex;
        flex-direction: column;
-       align-content: center;
-       justify-items: center;
+       justify-content: space-evenly;
        margin-top: 20%;
      }
      .image
@@ -279,7 +271,7 @@ nav a:hover
     #intro
     {
         font-size:1.2em;
-        margin-left: -25%;    
+        margin-left: 5%;    
         font-family: 'Boogaloo', cursive;
         font-weight: 500;
         letter-spacing: 2px;
@@ -291,18 +283,17 @@ nav a:hover
     {
         display: flex;
         flex-direction: column;
-        align-content: center;
-        justify-items: center;
-        margin-top: 10%;
+        justify-content: space-evenly;
+        margin-top: 15%;
     }
     
     #dev-intro
     {
         font-size:1.2em;
-        margin-left:-40%;    
+        margin-left:-20%;    
         font-family: 'Boogaloo', cursive;
         font-weight: 500;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
         color:#79959B;
         
     }
@@ -310,7 +301,7 @@ nav a:hover
     {
         height: 50%;
         width: 70%;
-        margin-left: 40%;
+        margin-left: 35%;
         margin-top: -20%;
 
     }

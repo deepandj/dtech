@@ -16,7 +16,7 @@ var slide = () => {
             else
             { 
            
-              link.style.animation=`navlinkslide 0.5s ease forwards ${index/7 + 0.5}s`;
+              link.style.animation=`navlinkslide 0.4s ease forwards ${index/7 + 0.5}s`;
 
             }
             
