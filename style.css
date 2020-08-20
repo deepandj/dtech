@@ -377,8 +377,9 @@ nav a:hover
     
     .dis-image
     {
-      height: 60%;
+      height: 70%;
       width: 40%;
+      margin-left: 4%;
       
     }
 
