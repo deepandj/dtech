@@ -232,7 +232,7 @@ nav a:hover
     nav {
         position: absolute;
         right: 0px;
-        height:89.75vh ;
+        height:60vh ;
         top: 10.25vh;
         border-radius:140px 0px 0px 140px;
         background-image:linear-gradient(45deg,azure,burlywood,bisque) ;
@@ -277,7 +277,7 @@ nav a:hover
     #intro
     {
         font-size:1.2em;
-        margin-left: -30%;    
+        margin-left: -25%;    
         font-family: 'Boogaloo', cursive;
         font-weight: 500;
         letter-spacing: 2px;
@@ -297,7 +297,7 @@ nav a:hover
     #dev-intro
     {
         font-size:1.2em;
-        margin-left:-45%;    
+        margin-left:-47%;    
         font-family: 'Boogaloo', cursive;
         font-weight: 500;
         letter-spacing: 2px;
@@ -306,8 +306,8 @@ nav a:hover
     }
     .dev-image
     {
-        height: 60%;
-        width: 80%;
+        height: 50%;
+        width: 70%;
         margin-left: 20%;
         margin-top: -20%;
 
