@@ -152,6 +152,29 @@ h3{
 }
 .dev-image
 {
+    height: 65%;
+    width: 40%;
+}
+#discuss
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+    padding: 0;
+}
+
+#dis-intro
+{
+    font-size:1.2em;
+    margin-top: 10%;
+    font-family: 'Boogaloo', cursive;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color:#79959B;
+}
+
+.dis-image
+{
     height: 60%;
     width: 40%;
 }
@@ -164,7 +187,8 @@ footer
     width:100%;
     text-align: center;
     position: relative;
-    top: 80%;    
+    top: 80%; 
+    margin-top: 10%;   
     
 }
 #icon-tray i
@@ -328,6 +352,28 @@ nav a:hover
         margin-top: -10%;
 
     }
+
+    #discuss
+    {
+        display: flex;
+        margin-top: 20%;
+        
+
+    }
+
+    #dis-intro
+    {
+      margin-left: -30%;
+    }
+
+    
+    .dis-image
+    {
+      height: 80%;
+      width: 40%;
+      
+    }
+
     
 }
 
