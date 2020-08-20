@@ -150,6 +150,11 @@ h3{
     color:#79959B;
 
 }
+.dev-image
+{
+    height: 60%;
+    width: 40%;
+}
 
 
 footer
@@ -316,10 +321,10 @@ nav a:hover
     }
     .dev-image
     {
-        height: 50%;
-        width: 70%;
-        margin-left: 25%;
-        margin-top: -15%;
+        height: 60%;
+        width: 50%;
+        margin-left: 35%;
+        margin-top: -10%;
 
     }
     
