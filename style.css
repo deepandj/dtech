@@ -297,7 +297,7 @@ nav a:hover
     #dev-intro
     {
         font-size:1.2em;
-        margin-left:-47%;    
+        margin-left:-40%;    
         font-family: 'Boogaloo', cursive;
         font-weight: 500;
         letter-spacing: 2px;
@@ -308,7 +308,7 @@ nav a:hover
     {
         height: 50%;
         width: 70%;
-        margin-left: 20%;
+        margin-left: 40%;
         margin-top: -20%;
 
     }
