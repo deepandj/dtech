@@ -13,7 +13,7 @@ body{
 
 #body{
     background-color:white;
-    height:100vh;
+    height:100%;
     width: auto;
     position: relative;
     top: 0%;
@@ -204,6 +204,8 @@ nav a:hover
 
     #body
     {
+        height: 100%;
+        width: auto;
         margin-top: 0;
         margin-left: 0;
         margin-right: 0;
@@ -213,6 +215,7 @@ nav a:hover
     h1
     {
         margin-left: -50%;
+        margin-bottom: 5px;
     
     }
     h3{
@@ -270,6 +273,7 @@ nav a:hover
        display: flex;
        flex-direction: column;
        justify-content: space-evenly;
+       align-content: center;
        margin-top: 20%;
      }
      .image
@@ -283,7 +287,7 @@ nav a:hover
     #intro
     {
         font-size:1.2em;
-        margin-left: 5%;    
+        align-content: center;   
         font-family: 'Boogaloo', cursive;
         font-weight: 500;
         letter-spacing: 2px;
@@ -302,7 +306,7 @@ nav a:hover
     #dev-intro
     {
         font-size:1.2em;
-        margin-left:-20%;    
+        margin-left:-25%;    
         font-family: 'Boogaloo', cursive;
         font-weight: 500;
         letter-spacing: 2px;
