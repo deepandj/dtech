@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 *{
     margin: 0px;
@@ -155,15 +155,16 @@ h3{
 footer
 {
     background-color: antiquewhite;
-    height:10%;
+    height:12%;
     width:100%;
     text-align: center;
     position: relative;
     top: 80%;    
+    
 }
 #icon-tray i
 {
-    margin-top: 10px;
+    margin-top: 5px;
     margin: 10px;
     padding: 10px;
     text-decoration-style: none;
@@ -175,6 +176,12 @@ footer
     text-decoration-style: none;
 }
 
+#copyright
+{
+    font-family: 'PT Sans', sans-serif;
+    
+
+}
 i:hover
 {
     font-size: 20px;
@@ -203,7 +210,11 @@ nav a:hover
         overflow-x: hidden;
         
     }
-   
+    h1
+    {
+        margin-left: -50%;
+    
+    }
     h3{
         margin-top: 10%;
         margin-left: 5%;
@@ -250,6 +261,7 @@ nav a:hover
     .burger
     {
         display: block;
+        margin-right: -70px;
     
     }
 
