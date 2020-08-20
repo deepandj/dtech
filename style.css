@@ -162,7 +162,7 @@ footer
     width: auto;
     text-align: center;
     position: relative;
-    top: 100%;    
+    top: 80vh;    
 }
 #icon-tray i
 {
@@ -297,7 +297,7 @@ nav a:hover
     #dev-intro
     {
         font-size:1.2em;
-        margin-left:-40%;    
+        margin-left:-45%;    
         font-family: 'Boogaloo', cursive;
         font-weight: 500;
         letter-spacing: 2px;
