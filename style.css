@@ -230,6 +230,7 @@ nav a:hover
     font-size: 20px;
 }
 
+/*media qeury*/
 
 @media screen and (max-width:768px)
 {
@@ -246,7 +247,7 @@ nav a:hover
     }
     h1
     {
-        margin-left: -50%;
+        margin-left: -20%;
         margin-bottom: 5px;
     
     }
@@ -390,11 +391,7 @@ nav a:hover
        transform: translateX(0%);
 }
 
-.mainsmove
-{
-    transform: translateX(-50%);
-    transition: ease-out 0.5s;
-}
+
 @keyframes navlinkslide{
     from
     {
@@ -409,16 +406,4 @@ nav a:hover
 
 }
 
-@keyframes mainmove
-{
-    from
-    {
-        transform: translateX(50%);
-       
-    }
-    to
-    {
-        transform: translateX(-50%);
-    }
-}
 

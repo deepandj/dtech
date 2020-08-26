@@ -6,7 +6,7 @@ var slide = () => {
 
     burgers.addEventListener('click',  () => {
         nav.classList.toggle('nav-active');
-        mains.classList.toggle('mainsmove');
+      
 
         navlinks.forEach((link,index) => {
             if(link.style.animation)
